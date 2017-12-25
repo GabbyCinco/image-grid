@@ -28,3 +28,24 @@ img:nth-child(2) {
 img:nth-child(5) {
   display: none;
 }
+
+@media only screen and (min-width: 25em) {
+
+  img {
+  width: 50%;
+  float: left;
+  }
+
+  img:first-child {
+    display: block;
+    width: 100%;
+  }
+
+  img:nth-child(2) {
+    display: inline;
+  }
+
+  img:nth-child(5) {
+    display: inline;
+  }
+}
