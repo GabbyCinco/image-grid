@@ -65,3 +65,20 @@ img:nth-child(5) {
   display: none;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    display: block;
+    width: 33.3333%;
+  }
+
+img:first-child {
+  width: 66.6666%;
+
+}
+
+  img:nth-child(5) {
+    display: block;
+  }
+}
