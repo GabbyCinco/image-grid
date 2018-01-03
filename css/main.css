@@ -37,8 +37,8 @@ img:nth-child(5) {
 @media only screen and (min-width: 25em) {
 
   img {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
   }
 
   img:first-child {
@@ -66,8 +66,8 @@ img:nth-child(5) {
     width: 100%;
   }
 
-  img:nth-child(5){
-  display: none;
+  img:nth-child(5) {
+    display: none;
   }
 }
 
@@ -78,8 +78,8 @@ img:nth-child(5) {
     width: 33.3333%;
   }
 
-img:first-child {
-  width: 66.6666%;
+  img:first-child {
+    width: 66.6666%;
 
 }
 
